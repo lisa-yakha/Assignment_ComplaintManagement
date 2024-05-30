@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplaintManagement", "ComplaintManagement.csproj", "{287B7DC7-95F3-4F0D-8841-BE2F724E3D80}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ComplaintDatabase", "..\..\ComplaintDatabase\ComplaintDatabase\ComplaintDatabase.sqlproj", "{2E87E60D-EB0C-45A4-BF3F-1335376E91F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{287B7DC7-95F3-4F0D-8841-BE2F724E3D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287B7DC7-95F3-4F0D-8841-BE2F724E3D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287B7DC7-95F3-4F0D-8841-BE2F724E3D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287B7DC7-95F3-4F0D-8841-BE2F724E3D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E87E60D-EB0C-45A4-BF3F-1335376E91F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E87E60D-EB0C-45A4-BF3F-1335376E91F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E87E60D-EB0C-45A4-BF3F-1335376E91F8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2E87E60D-EB0C-45A4-BF3F-1335376E91F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E87E60D-EB0C-45A4-BF3F-1335376E91F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E87E60D-EB0C-45A4-BF3F-1335376E91F8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {058F2E11-6F3C-4621-9887-723246A4D482}
+	EndGlobalSection
+EndGlobal
